@@ -1,0 +1,24 @@
+{
+    "name": "file-manager-mcp-server",
+    "version": "1.0.0",
+    "description": "A simple Model Context Protocol server for file management.",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "mcp",
+        "claude",
+        "filemanager",
+        "express"
+    ],
+    "author": "prkasa",
+    "license": "MIT",
+    "dependencies": {
+        "@modelcontextprotocol/sdk": "^1.27.1",
+        "axios": "^1.13.6",
+        "express": "^4.21.0",
+        "zod": "^4.3.6"
+    }
+}
